@@ -716,3 +716,85 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+table.cart-table td img {
+    width: 80px;
+    height: 76px;
+}
+.taxat {
+    margin-top: 50px;
+    clear: both;
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 30px;
+}
+form.apply-coupon {
+    float: left;
+}
+.apply-coupon input {
+    float: left;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea!important;
+    line-height: 30px;
+    padding: 7px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.checkout-btn {
+    margin-top: 6px;
+}
+.coupon-btn {
+    float: left;
+    background: #5a423b;
+    padding: 16px 20px;
+    color: #fff!important;
+    border-radius: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: none!important;
+}
+.cart-buttons {
+    float: right;
+    margin-top: 18px;
+}
+.cart-buttons a {
+    padding: 14px 20px;
+    color: #fff;
+    background: #382925;
+    border-radius: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.taxes {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    float: left;
+    clear: both;
+}
+.taxes ul {
+    margin-bottom: 35px;
+}
+ol, ul {
+    list-style: none;
+}
+.taxes ul li a {
+    color: #e7e5de;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #382925;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.taxes p {
+    font-size: 12px;
+    font-weight: normal;
+    color: #554a4c;
+    margin-bottom: 25px;
+}
