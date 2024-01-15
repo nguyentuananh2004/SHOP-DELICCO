@@ -44,32 +44,6 @@ ul {
 .language li{
     padding-left: 10px;
 }
-.container.header {
-    background: #fff;
-    width: 100%;
-}
-.navbar-default {
-    border: none!important;
-    background: #fff!important;
-    padding: 26px 0px 16px 0!important;
-    margin-top: 20px!important;
-}
-.navbar-default .navbar-toggle {
-    border-color: #ddd;
-}
-.navbar-nav>li {
-    float: left;
-}
-.nav>li {
-    position: relative;
-    display: block;
-}
-ul li {
-    list-style: none;
-}
-.container {
-    width: 1170px;
-}
 .menu{
     margin-left: 0;
     margin-right: 0;
@@ -607,6 +581,9 @@ a:hover, a:focus {
     border-radius: 3px;
     margin-top: 30px;
     clear: both;
+}
+.container{
+    width: 100%;
 }
 .bs-example {
     padding: 34px 20px 20px 20px;
@@ -1196,36 +1173,4 @@ ul li {
 }
 .container3{
     padding-top: 20px;
-}
-.navbar-nav>li>.dropdown-menu {
-    margin-top: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.open>.dropdown-menu {
-    display: block;
-}
-.dropdown-menu ul li {
-    list-style: none;
-}
-.dropdown-menu {
-    margin-top: 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
